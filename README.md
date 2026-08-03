@@ -22,14 +22,14 @@ This project analyzes multi-table e-commerce data (orders, customers, payments, 
 |---|---|
 | Data Cleaning & Preprocessing | Python (Pandas) — `marketing_analysis.ipynb` |
 | Data Storage & Querying | MySQL — `marketing_analysis.sql` |
-| Dashboard & Visualization | Power BI — `Target_ECommerce.pbix` |
+| Dashboard & Visualization | Power BI — `marketing_analysis.pbix` |
 
 ## 📁 Repository Structure
 
 ```
 ├── marketing_analysis.ipynb     # Data cleaning & preprocessing notebook
 ├── marketing_analysis.sql       # SQL queries for business analysis
-├── Target_ECommerce.pbix        # Power BI dashboard
+├── marketing_analysis.pbix        # Power BI dashboard
 ├── datasets/                    # Raw datasets
 │   ├── customers (1).csv
 │   ├── orders (1).csv
@@ -71,7 +71,7 @@ The Power BI dashboard visualizes these findings interactively, allowing filteri
 1. Raw CSV files (`datasets/`) are processed via `marketing_analysis.ipynb`, which handles cleaning, deduplication, and feature engineering, producing the output files in `cleaned-datasets/`.
 2. Load the cleaned CSV files (`cleaned-datasets/`) into a MySQL database named `marketing_analysis`.
 3. Run `marketing_analysis.sql` against the cleaned tables to generate the analysis views.
-4. Open `Target_ECommerce.pbix` in Power BI Desktop to explore the interactive dashboard, which is built on the cleaned data.
+4. Open `marketing_analysis.pbix` in Power BI Desktop to explore the interactive dashboard, which is built on the cleaned data.
 
 ## 📌 Dataset
 
